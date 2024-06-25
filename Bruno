@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerson Construction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emerson Construction</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a Emerson Construction</h2>
+        <p>Su socio confiable para todas sus necesidades de construcción y remodelación. Con años de experiencia y un equipo de profesionales dedicados, ofrecemos servicios de alta calidad para su hogar o negocio. ¡Hagamos realidad su visión!</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li><strong>Pintura:</strong> Transforme su espacio con nuestros servicios de pintura profesional. Desde interiores hasta exteriores, garantizamos un acabado impecable y duradero.</li>
+            <li><strong>Techos:</strong> Proporcionamos soluciones completas para techos, desde reparaciones hasta instalaciones nuevas. Utilizamos materiales de la más alta calidad para asegurar la durabilidad y protección de su hogar.</li>
+            <li><strong>Drywall:</strong> Ofrecemos instalación y reparación de drywall, asegurando paredes y techos lisos y uniformes. Nuestro equipo maneja proyectos de todos los tamaños con precisión y cuidado.</li>
+            <li><strong>Reparaciones:</strong> Desde pequeñas reparaciones hasta proyectos de renovación completa, nuestro equipo está aquí para ayudarle a mantener su propiedad en perfectas condiciones.</li>
+            <li><strong>Baños:</strong> Modernice su baño con nuestras soluciones de remodelación. Desde actualizaciones estéticas hasta renovaciones completas, creamos espacios funcionales y hermosos.</li>
+            <li><strong>Cocinas:</strong> Renueve su cocina con diseños personalizados y soluciones innovadoras. Nos encargamos de cada detalle para que tenga la cocina de sus sueños.</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Galería de Proyectos</h2>
+        <p>Vea nuestros proyectos recientes para inspirarse y conocer la calidad de nuestro trabajo.</p>
+        <!-- Aquí puedes agregar una galería de imágenes de tus proyectos -->
+    </section>
+
+    <section id="testimonios">
+        <h2>Lo que Dicen Nuestros Clientes</h2>
+        <blockquote>
+            <p>“Emerson Construction transformó mi cocina en un espacio de ensueño. ¡No podría estar más feliz con el resultado!” – Ana López</p>
+        </blockquote>
+        <blockquote>
+            <p>“El equipo fue profesional y eficiente. Mi nuevo techo es perfecto.” – Carlos Martínez</p>
+        </blockquote>
+    </section>
+
+    <section id="sobre-nosotros">
+        <h2>Nuestra Historia</h2>
+        <p>Emerson Construction se fundó con la misión de proporcionar servicios de construcción excepcionales. Nuestro equipo de expertos se dedica a entregar resultados sobresalientes en cada proyecto, asegurando la satisfacción total del cliente.</p>
+        <h3>Nuestro Equipo</h3>
+        <p>Conozca a los profesionales detrás de Emerson Construction, comprometidos con la excelencia y la calidad en cada detalle.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctenos</h2>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Correo Electrónico: info@emersonconstruction.com</p>
+        <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+        <form action="mailto:info@emersonconstruction.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Emerson Construction. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
